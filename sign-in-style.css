@@ -1,0 +1,120 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a{
+        color: #0066c0;
+        text-decoration: none;
+}
+a:hover{
+    color: rgb(229, 130, 8);
+    text-decoration: underline;
+
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.logo{
+    height: 80px;  
+}
+
+.amazonlogo{
+    height: 100px;
+    width: 180px;
+    background-image:url("Amazonlogo.png");
+    background-size:cover;
+    margin-top: 0px;
+}
+
+/* sign up section */
+
+.section1{
+    height: 300px;
+    width: 350px;
+    border:1px solid rgba(134, 132, 132, 0.70);
+    border-radius: 10px;
+    display: flex;
+    /* justify-content: center;
+    align-items: center; */
+    flex-direction: column;
+    padding: 20px 30px 20px 30px;
+    margin-top:20px;
+}
+
+.section1 input{
+    height: 30px;
+    border: 1px solid #767676;
+    border-radius: 5px;
+
+}
+.section1 button{
+    height: 40px;
+    text-decoration: none;
+    background-color: #f2cb4b;
+    border: 1px solid transparent;
+    border-radius:5px;
+    
+}
+
+.section1 button:active{
+    background-color: #d59d11;
+}
+
+.Continue{
+    text-decoration: none;
+    color: black;
+}
+.section1 p{
+    font-size: 13px;
+}
+
+.section1 select{
+    text-decoration: none;
+    color: #0066c0;
+    border: none;
+
+}
+
+/* create acc. section */
+
+.section2{
+    text-align: center;
+    font-size: small;
+    margin-top: 50px;
+
+}
+.section2 p{
+    color: #767676;
+}
+.section2 button{
+    height: 30px;
+    width: 350px;
+    border: 1px solid rgba(134, 132, 132, 0.75);
+    border-radius: 5px;
+    background-color: white;
+}
+.section2 button:hover{
+    background-color: #c4c4c4;
+}
+
+/* last section */
+
+.condition{
+    width: 100vb;
+    text-align: center;
+    margin-top: 80px;
+    font-size: 12px;
+    border-top:1px solid rgba(134, 132, 132, 0.5);
+    padding-top: 50px ;
+}
+.condition a{
+    margin-left: 15px;
+}
+.condition p{
+    color: #767676;
+}
