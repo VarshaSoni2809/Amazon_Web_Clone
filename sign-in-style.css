@@ -26,7 +26,7 @@ body{
 .amazonlogo{
     height: 100px;
     width: 180px;
-    background-image:url("Amazonlogo.png");
+    background-image:url("/Amazon_Web_Clone/Images/Amazonlogo.png");
     background-size:cover;
     margin-top: 0px;
 }
